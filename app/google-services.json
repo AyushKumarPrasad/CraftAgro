@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "329816767915",
+    "firebase_url": "https://hydroponics-d754f.firebaseio.com",
+    "project_id": "hydroponics-d754f",
+    "storage_bucket": "hydroponics-d754f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329816767915:android:f39d566df0dbc3a7",
+        "android_client_info": {
+          "package_name": "hydroponics.agro.craft.craftagro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329816767915-kt49utrnk10td3p62uak6ndlah78bc16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hydroponics.agro.craft.craftagro",
+            "certificate_hash": "76eaa7c1187d5e52e8553b3653f51e0715f0b249"
+          }
+        },
+        {
+          "client_id": "329816767915-a4l7rhvad25941bte02n15q4esguj6lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPBJUBITImn1bI1nH-zzb-qSfaxT-bk5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329816767915-a4l7rhvad25941bte02n15q4esguj6lt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

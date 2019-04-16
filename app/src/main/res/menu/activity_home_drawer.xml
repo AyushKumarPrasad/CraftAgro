@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_one"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/aboutus"
+            android:title="About Us" />
+        <item
+            android:id="@+id/our_products"
+            android:icon="@drawable/vegetable"
+            android:title="Vegetables" />
+        <item
+            android:id="@+id/hydroponics"
+            android:icon="@drawable/hydroponics"
+            android:title="Hydroponics" />
+        <item
+            android:id="@+id/our_website"
+            android:icon="@drawable/ourwebsite"
+            android:title="Our Website" />
+        <item
+            android:id="@+id/previous_order"
+            android:icon="@drawable/previousorder"
+            android:title="Order History" />
+        <item
+            android:id="@+id/intro"
+            android:icon="@drawable/refreshbutton"
+            android:title="Check Updates" />
+        <item
+            android:id="@+id/shareapp"
+            android:icon="@drawable/share"
+            android:title="Share App" />
+        <item
+            android:id="@+id/credits"
+            android:icon="@drawable/credits"
+            android:title="Credits" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+    <group
+        android:id="@+id/group_two"
+        android:checkableBehavior="single">
+        <item
+            app:showAsAction="ifRoom"
+            android:id="@+id/switch_item"
+            app:actionLayout="@layout/drawer_button"
+            android:title="" />
+    </group>
+
+</menu>

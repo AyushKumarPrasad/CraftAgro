@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#006400"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hydroponics">
+    <android.support.v7.widget.Toolbar
+        android:padding="3dp"
+        android:id="@+id/toolbarhydroponics"
+        android:background="#006400"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/colinear0"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imagenewboyhydroponics"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/leftarrowwhite"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:id="@+id/imagenewboytexthydroponics"
+                android:text="Hydroponics"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textColor="#f0f0f0"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/scroll1fzf"
+        android:layout_below="@+id/toolbarhydroponics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView2xfdx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:text="@string/what_is_hydroponics"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/hydrotext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/hydroponics_is_a_which_means_working_water_hydroponics_is_also_known_soil_less_gardening_it_involves_growing_healthy_plants_without_use_of_traditional_soil_medium_by_using_nutrients_like_mineral_rich_water_instead"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/dffs"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/abouttwo" />
+
+            <TextView
+                android:id="@+id/textView4khhgf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/how_it_works"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView5vxcv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/the_basic_premise_behind_hydroponics_is_to_allow_the_plants_roots_to_come_in_direct_contact_with_the_nutrient_solution_while_also_having_access_to_oxygen_which_is_essential_for_proper_growth_this_way_the_roots_get_the_maximum_amount_of_oxygen_and_nutrients_in_available_form_so_the_plant_shows_luxuriant_roots_growth_and_healthy_plant_growth"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/fdssf"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/aboutfour" />
+
+            <TextView
+                android:id="@+id/jfjf"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/aboutfive" />
+
+            <TextView
+                android:id="@+id/textView42vbbcb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/why_hydroponics"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView54dffz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/hydroponics_uses_less_water_than_soil_growing_in_some_cases_up_to_90_less_water_than_traditional_soil_based_agriculture_grow_bigger_faster_stronger_than_soil_based_growing_without_pesticides_and_preservatives_with_hydroponics_you_avoid_diseases_that_often_destroy_soil_based_growing_hydroponic_growing_yields_up_to_20_times_more_than_soil_based_growing_hydroponic_garden_requires_very_less_space_for_set_up_and_one_can_grow_vertically_and_maximum_utilization_of_space_can_be_achieved"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/fjfj"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shivaa"
+                android:fontFamily="sans-serif" />
+
+            <TextView
+                android:id="@+id/fjfjff"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/abouteight"
+                android:fontFamily="sans-serif" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

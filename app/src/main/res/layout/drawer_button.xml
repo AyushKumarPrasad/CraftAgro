@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_alignParentStart="true"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/facebook_button"
+                        android:elevation="15dp"
+                        android:layout_height="40dp"
+                        android:layout_width="40dp"
+                        android:background="@mipmap/facebook" />
+                    <ImageView
+                        android:id="@+id/instagram_button"
+                        android:elevation="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="40dp"
+                        android:layout_width="40dp"
+                        android:background="@drawable/instagram" />
+                    <ImageView
+                        android:id="@+id/twitter_button"
+                        android:elevation="15dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="40dp"
+                        android:background="@mipmap/twitter" />
+                    <ImageView
+                        android:id="@+id/linkedin_button"
+                        android:elevation="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="40dp"
+                        android:layout_width="40dp"
+                        android:background="@mipmap/linkedin" />
+                    <ImageView
+                        android:id="@+id/googleplus_button"
+                        android:layout_height="40dp"
+                        android:elevation="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="40dp"
+                        android:background="@drawable/googleplus" />
+                </LinearLayout>
+                <TextView
+                    android:textSize="14sp"
+                    android:textColor="#ffffff"
+                    android:text="Copy Rights 2018"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+   <!--             <View
+                    android:id="@+id/view2"
+                    android:background="#ffffff"
+                    android:layout_marginTop="4dp"
+                    android:layout_below="@+id/t2_ram"
+                    android:paddingTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp" />  -->
+        </LinearLayout>
+</LinearLayout>

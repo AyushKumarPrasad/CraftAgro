@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Craft Agro</string>
+
+    <string name="slide_1_title">Bus Tickets</string>
+    <string name="slide_1_desc">Explore Tickets of Bus Route across country</string>
+
+    <string name="slide_2_title">Flight Tickets</string>
+    <string name="slide_2_desc">Explore Flight Tickets and fly across country</string>
+
+    <string name="slide_3_title">Train Tickets</string>
+    <string name="slide_3_desc">Explore attractive deal on Train Tickets with comfort</string>
+
+    <string name="slide_4_title">Movie Tickets</string>
+    <string name="slide_4_desc">Explore latest movies and enjoy with your dear ones</string>
+
+    <string name="my_preference">"kumar.ayush.agro.craft.craftagro.kumar.MyPref"</string>
+    <string name="my_preference_key">"kumar.ayush.agro.craft.craftagro.kumar.MyPrefkey"</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="sharing_text">Your sharing text goes here…</string>
+    <string name="share_title">Share Screenshot</string>
+    <string name="screenshot_take_failed">Failed to take screenshot!!</string>
+    <string name="wait">Please wait…</string>
+    <string name="full_page_screenshot">Full Page Screenshot</string>
+    <string name="hidden_text">Hidden Text</string>
+    <string name="custom_page_screenshot">Custom Page Screenshot</string>
+
+    <string name="mr_vijay_yelmalle_is_the_proprietor_of_craft_he_has_worked_in_chemical_industry_at_singapore_for_14_years_being_mba_graduate_from_university_of_wales_england_he_has_gained_much_needed_experience_and_knowledge_to_establish_and_run_a_successful_organization_among_many_achievements_he_was_also_a_part_of_the_team_that_successfully_commissioned_first_alfa_technology_plant_for_manufacturing_of_mma_methyl_methacrylate_which_was_20_000_times_expansion_from_its_pilot_plant_worked_in_the_field_on_aquaponics_and_hydroponics_for_5_years">Mr. Vijay Yelmalle is the proprietor of Craft. He has worked in chemical industry at Singapore for 14 years. Being MBA graduate from University of Wales, England he has gained much needed experience and knowledge to establish and run a successful organization. Among many achievements, he was also a part of the team that successfully commissioned first Alfa-technology plant for manufacturing of MMA (Methyl MethAcrylate), which was 20,000 times expansion from its pilot plant. Worked in the field on Aquaponics and Hydroponics for 5 years.</string>
+    <string name="vijay_yelmalle_mba_university_of_wales_england_chemical_engineer">Vijay Yelmalle,  MBA – University of Wales, England Chemical Engineer</string>
+    <string name="at_craft_we_encourage_both_innovation_and_experience_and_are_looking_to_build_hydroponics_and_aquaponics_systems_that_are_both_reliable_and_easy_to_maintain_hence_let_it_be_kitchen_garden_or_commercial_hydroponics_aquaponics_our_team_try_to_make_it_as_easy_as_possible_even_for_a_layman_to_understand_the_concept_so_that_he_is_self_sustained_after_a_period_of_time_having_said_that_we_are_proud_to_share_our_team">At Craft we encourage both innovation and experience and are looking to build Hydroponics and Aquaponics systems that are both reliable and easy to maintain. Hence, let it be kitchen garden or commercial Hydroponics/Aquaponics our team try to make it as easy as possible even for a Layman to understand the concept so that he is self-sustained after a period of time. Having said that we are proud to share our team.</string>
+    <string name="at_craft_we_are_constantly_working_on_making_nutrient_solution_that_can_replicate_the_wide_variety_of_nutrients_and_biological_environment_present_in_the_soil_craft_is_developing_its_own_nutrients_which_are_being_tested_in_commercial_scale_the_nutrients_are_the_major_part_of_hydroponics_and_at_a_large_scale_it_is_advisable_to_use_specialized_nutrients_which_are_developed_according_to_the_plant_up_take_and_different_levels_of_growth_even_with_aquaponics_we_have_extensively_researched_on_plant_fish_ratio_and_also_making_developing_our_own_fish_feed_to_provide_complete_nutrition_to_the_plants_our_clients_get_this_advantage_of_our_research_on_hydroponics_and_aquaponics_to_get_the_best_out_of_the_system">At CRAFT, we are constantly working on making nutrient solution that can replicate the wide variety of nutrients and biological environment present in the soil. CRAFT is developing its own nutrients which are being tested in commercial scale.The Nutrients are the major part of Hydroponics and at a large scale it is advisable to use specialized nutrients which are developed according to the plant up take and different levels of growth.Even with Aquaponics we have extensively researched on plant fish ratio and also making developing our own fish feed to provide complete nutrition to the plants, Our clients get this advantage of our research on Hydroponics and Aquaponics to get the best out of the system.</string>
+    <string name="centre_for_research_in_alternative_farming_technologies_is_a_part_of_our_work_in_sustainability_we_are_working_on_an_eco_tourism_model_in_tribal_population_in_eco_tourism_this_project_aims_at_reviving_the_tribal_culture_and_showcasing_their_integration_of_human_and_ecology_without_harming_the_mother_nature">\'Centre for Research in Alternative Farming Technologies\' is a part of our work in sustainability.We are working on an eco-tourism model in tribal population in eco-tourism.This project aims at reviving the tribal culture and showcasing their integration of human and ecology without harming the mother nature.</string>
+    <string name="hydroponics">HYDROPONICS</string>
+    <string name="what_is_hydroponics">What is Hydroponics ?</string>
+    <string name="hydroponics_is_a_which_means_working_water_hydroponics_is_also_known_soil_less_gardening_it_involves_growing_healthy_plants_without_use_of_traditional_soil_medium_by_using_nutrients_like_mineral_rich_water_instead">Hydroponics is a which means working water. Hydroponics is also known soil-less gardening. It involves growing healthy plants without use of traditional soil medium by using nutrients like mineral rich water instead.</string>
+    <string name="how_it_works">How it works ?</string>
+    <string name="the_basic_premise_behind_hydroponics_is_to_allow_the_plants_roots_to_come_in_direct_contact_with_the_nutrient_solution_while_also_having_access_to_oxygen_which_is_essential_for_proper_growth_this_way_the_roots_get_the_maximum_amount_of_oxygen_and_nutrients_in_available_form_so_the_plant_shows_luxuriant_roots_growth_and_healthy_plant_growth">The basic premise behind hydroponics is to allow the plants roots to come in direct contact with the nutrient solution, while also having access to oxygen, which is essential for proper growth. This way the roots get the maximum amount of oxygen and nutrients in available form. So the plant shows luxuriant roots growth and healthy plant growth.</string>
+    <string name="hydroponics_uses_less_water_than_soil_growing_in_some_cases_up_to_90_less_water_than_traditional_soil_based_agriculture_grow_bigger_faster_stronger_than_soil_based_growing_without_pesticides_and_preservatives_with_hydroponics_you_avoid_diseases_that_often_destroy_soil_based_growing_hydroponic_growing_yields_up_to_20_times_more_than_soil_based_growing_hydroponic_garden_requires_very_less_space_for_set_up_and_one_can_grow_vertically_and_maximum_utilization_of_space_can_be_achieved">Hydroponics uses less water than soil growing - in some cases up to 90% less water than traditional soil-based agriculture. Grow BIGGER, FASTER, STRONGER than soil-based growing. Without pesticides and preservatives. With hydroponics, you avoid diseases that often destroy soil-based growing. Hydroponic growing yields up to 20 times more than soil-based growing. Hydroponic garden requires very less space for set up and one can grow vertically and maximum utilization of space can be achieved.</string>
+    <string name="why_hydroponics">WHY HYDROPONICS?</string>
+    <string name="todo">TODO</string>
+
+    <string name="quote">Your food is the medicine of your life..Your food is the medicine of your life..</string>
+
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#006400"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+    <android.support.v7.widget.Toolbar
+        android:padding="3dp"
+        android:id="@+id/toolbaraboutus"
+        android:background="#006400"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imagenewboyaboutus"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/leftarrowwhite"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:id="@+id/imagenewboytextaboutus"
+                android:text="Who we are ?"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textColor="#f0f0f0"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:id="@+id/scroll1"
+        android:layout_below="@+id/toolbaraboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textshiv1"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="@string/centre_for_research_in_alternative_farming_technologies_is_a_part_of_our_work_in_sustainability_we_are_working_on_an_eco_tourism_model_in_tribal_population_in_eco_tourism_this_project_aims_at_reviving_the_tribal_culture_and_showcasing_their_integration_of_human_and_ecology_without_harming_the_mother_nature"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textshiv2"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/at_craft_we_are_constantly_working_on_making_nutrient_solution_that_can_replicate_the_wide_variety_of_nutrients_and_biological_environment_present_in_the_soil_craft_is_developing_its_own_nutrients_which_are_being_tested_in_commercial_scale_the_nutrients_are_the_major_part_of_hydroponics_and_at_a_large_scale_it_is_advisable_to_use_specialized_nutrients_which_are_developed_according_to_the_plant_up_take_and_different_levels_of_growth_even_with_aquaponics_we_have_extensively_researched_on_plant_fish_ratio_and_also_making_developing_our_own_fish_feed_to_provide_complete_nutrition_to_the_plants_our_clients_get_this_advantage_of_our_research_on_hydroponics_and_aquaponics_to_get_the_best_out_of_the_system"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textshiv3"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="@string/at_craft_we_encourage_both_innovation_and_experience_and_are_looking_to_build_hydroponics_and_aquaponics_systems_that_are_both_reliable_and_easy_to_maintain_hence_let_it_be_kitchen_garden_or_commercial_hydroponics_aquaponics_our_team_try_to_make_it_as_easy_as_possible_even_for_a_layman_to_understand_the_concept_so_that_he_is_self_sustained_after_a_period_of_time_having_said_that_we_are_proud_to_share_our_team"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textshiv4"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/vijay_yelmalle_mba_university_of_wales_england_chemical_engineer"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/mr_vijay_yelmalle_is_the_proprietor_of_craft_he_has_worked_in_chemical_industry_at_singapore_for_14_years_being_mba_graduate_from_university_of_wales_england_he_has_gained_much_needed_experience_and_knowledge_to_establish_and_run_a_successful_organization_among_many_achievements_he_was_also_a_part_of_the_team_that_successfully_commissioned_first_alfa_technology_plant_for_manufacturing_of_mma_methyl_methacrylate_which_was_20_000_times_expansion_from_its_pilot_plant_worked_in_the_field_on_aquaponics_and_hydroponics_for_5_years"
+                android:textColor="#ffffff"
+                android:textSize="14sp"  />
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

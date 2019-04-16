@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativelayout_placeorder"
+    android:padding="2dp"
+    android:background="#006400"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/tools"
+    tools:context=".PlaceOrder">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#708238"
+        app:cardCornerRadius="20dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:card_Elevation="35dp">
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/back_button_place_order"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/leftarrowwhite" />
+                <EditText
+                    android:id="@+id/name"
+                    android:digits="abcdefghijklmnopqrst
+                    uvwxyzABC
+                    DEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:layout_width="115dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/toolbar22"
+                    android:layout_marginLeft="50dp"
+                    android:ems="10"
+                    android:hint="name"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText,LabelFor,
+                    UnknownIdInLayout" />
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="115dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="phone  no"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText,LabelFor,
+                    TextFields,UnknownId" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/phone"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="5dp"
+                android:ems="10"
+                android:hint="address"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText,LabelFor" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearspinner"
+            android:layout_marginTop="95dp"
+            android:gravity="center"
+            android:background="#708238"
+            android:layout_below="@+id/linear1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:id="@+id/spinner_vegetable_list"
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/linear1"
+                android:popupBackground="#708238"
+                android:textSize="14sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_marginTop="135dp"
+            android:background="#708238"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearspinner"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview_vegetable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:text="Vegetables"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText"  />
+
+                <CheckBox
+                    android:id="@+id/check1"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+
+                    android:text="Bak Choy"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/check2"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Spinach"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/check3"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Lettuce Lollo Rosso"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/check4"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Lettuce Marvel of four Seasons"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/check5"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Kale"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/check6"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Mustard Greens"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/check7"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Beet Green"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/check8"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Swiss Chard"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+
+                <CheckBox
+                    android:id="@+id/check9"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Chienese Cabbage"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview_price"
+                    android:textAlignment="center"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText"/>
+
+                <TextView
+                    android:id="@+id/price_bakchoy"
+                    android:layout_marginTop="13dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="100/-"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/price_spinach"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="130/-"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/price_lettucelollo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="120/-"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/price_lettucemarvel"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="120/-"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/price_kale"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="150/-"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/price_mustardgreens"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="160/-"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/price_beetgreen"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="170/-"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/price_swisschard"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="180/-"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/price_chienesecabbage"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="190/-"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp"/>
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <EditText
+                    android:id="@+id/editText8"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp"/>
+
+                <EditText
+                    android:id="@+id/editText9"
+                    android:layout_width="30dp"
+                    android:layout_gravity="center"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview_payment"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pay"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/pricetext1"
+                    android:gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <TextView
+                    android:id="@+id/pricetext2"
+                    android:gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <TextView
+                    android:id="@+id/pricetext3"
+                    android:gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <TextView
+                    android:id="@+id/pricetext4"
+                    android:gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <TextView
+                    android:id="@+id/pricetext5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <TextView
+                    android:id="@+id/pricetext6"
+                    android:gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <TextView
+                    android:id="@+id/pricetext7"
+                    android:gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <TextView
+                    android:id="@+id/pricetext8"
+                    android:gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+                <TextView
+                    android:id="@+id/pricetext9"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,LabelFor,SmallSp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="560dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/submit_order_button"
+                android:elevation="45dp"
+                android:gravity="center"
+                android:layout_width="120dp"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:layout_height="40dp"
+                android:background="@drawable/roundbutton"
+                android:text="Submit"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_whatsapp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="280dp"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/whatsapp"
+            android:elevation="26dp"
+            android:visibility="invisible"
+            app:backgroundTint="#421B2E"
+            app:pressedTranslationZ="12dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_location"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="210dp"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/location"
+            android:elevation="26dp"
+            android:visibility="invisible"
+            app:backgroundTint="#005073"
+            app:pressedTranslationZ="12dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_fb"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="140dp"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/phone"
+            android:elevation="26dp"
+            android:visibility="invisible"
+            app:backgroundTint="#A61D39"
+            app:pressedTranslationZ="12dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_twitter"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/email"
+            android:elevation="26dp"
+            app:backgroundTint="#FF964A"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_plus"
+            app:backgroundTint="#1D8E2D"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/plus"
+            android:elevation="26dp"
+            app:pressedTranslationZ="12dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <TextView
+            android:id="@+id/textdatetimeew"
+            android:layout_below="@+id/fab_plus"
+            android:layout_marginTop="590dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            tools:ignore="HardcodedText,UnknownIdInLayout"
+            android:layout_alignParentBottom="true" />
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
